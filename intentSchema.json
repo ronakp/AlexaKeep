@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "intent": "WhatPostIntent",
+      "slots": [
+        {
+          "name": "Pronoun",
+          "type": "PRONOUN_LIST"
+        },
+        {
+          "name": "PronounName",
+          "type": "AMAZON.US_FIRST_NAME"
+        },
+        {
+          "name": "WhatKey",
+          "type": "WHAT_KEY"
+        },
+        {
+          "name": "WhatValue",
+          "type": "WHAT_VALUE"
+        }
+      ]
+    },
+    {
+      "intent": "WhatGetIntent",
+      "slots": [
+        {
+          "name": "Pronoun",
+          "type": "PRONOUN_LIST"
+        },
+        {
+          "name": "PronounName",
+          "type": "AMAZON.US_FIRST_NAME"
+        },
+        {
+          "name": "WhatKey",
+          "type": "WHAT_KEY"
+        }
+      ]
+    },
+    {
+      "intent": "WherePostIntent",
+      "slots": [
+        {
+          "name": "Pronoun",
+          "type": "PRONOUN_LIST"
+        },
+        {
+          "name": "WhereKey",
+          "type": "WHERE_KEY"
+        },
+        {
+          "name": "WhereValue",
+          "type": "WHERE_VALUE"
+        }
+      ]
+    },
+    {
+      "intent": "WhereGetIntent",
+      "slots": [
+        {
+          "name": "Pronoun",
+          "type": "PRONOUN_LIST"
+        },
+        {
+          "name": "WhereKey",
+          "type": "WHERE_KEY"
+        }
+      ]
+    },
+    {
+      "intent": "WhenPostIntent",
+      "slots": [
+        {
+          "name": "Pronoun",
+          "type": "PRONOUN_LIST"
+        },
+        {
+          "name": "WhenKey",
+          "type": "WHEN_KEY"
+        },
+        {
+          "name": "Event",
+          "type": "EVENT_LIST"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "Time",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "WhenGetIntent",
+      "slots": [
+        {
+          "name": "Pronoun",
+          "type": "PRONOUN_LIST"
+        },
+        {
+          "name": "WhenKey",
+          "type": "WHEN_KEY"
+        },
+        {
+          "name": "Event",
+          "type": "EVENT_LIST"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "Time",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
